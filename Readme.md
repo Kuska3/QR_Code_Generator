@@ -2,6 +2,7 @@ QR Code Generator with Dark Mode
 This project is a simple QR Code Generator built using HTML, CSS, and JavaScript, enhanced with a Dark Mode & Light Mode Toggle for better user experience.
 
 🔹 Features
+
 1️⃣ QR Code Generation
 Enter a URL or text into the input field.
 Press "Enter" or click the "Generate QR" button.

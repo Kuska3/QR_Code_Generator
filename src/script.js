@@ -53,8 +53,10 @@ function toggleDarkMode() {
 }
 
 // Apply saved theme on page load
-// window.onload = () => {
-//     if (localStorage.getItem("theme") === "dark") {
-//         body.classList.add("dark-mode");
-//     }
-// };
+window.onload = () => {
+    if (localStorage.getItem("theme") === "dark") {
+        body.classList.add("dark-mode");
+        btn.innerText = "Light Mode";
+        mode = "dark";
+    }
+};
